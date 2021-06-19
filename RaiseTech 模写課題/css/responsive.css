@@ -1,0 +1,155 @@
+/*ロゴ横を無くす*/
+@media (max-width: 1270px){
+    .header-title p{
+        display:none;
+    }
+
+    .hum-btn{
+        display:none;
+    }
+    .h-link{
+        display:none;
+    }
+    
+
+    
+}
+
+/*メニュー余白変え*/
+@media(max-width:1260px){
+    .header-link ul li a{
+        padding:0 10px;
+    }
+    .hum-btn{
+        display:none;
+    }
+
+    .h-link{
+        display:none;
+    }
+
+}
+
+/*ハンバーガーメニュー実装*/
+@media(max-width:1200px){
+    .header{
+        height:50px;
+        line-height:50px!important;
+    }
+    .main-top{ 
+        padding-top:50px;
+    }
+
+    
+
+    .header-title img{
+        
+        width:143px;
+        height:30px;
+        vertical-align: middle;
+    }
+
+    .header-title h1{
+        
+        margin:0;
+       
+        
+    }
+
+    .header-link{
+        display:none;
+    }
+
+    .hum-btn{
+        display:block;
+    }
+
+    
+}
+
+/*メイン下変え*/
+@media(max-width:1080px){
+    .bottom-contents{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content{
+        width:30%;
+        margin:0 2%;
+    }
+
+    .icon{
+        margin:auto;
+    }
+}
+
+/*スマホ*/
+@media(max-width:767px){
+
+    .layer1{
+        align-items:flex-end;
+        background-size:cover;
+        background-position:center -30px;
+        max-width:767px;
+        height:320px;
+        padding:0;
+    }
+
+    .layer2{
+        background-size:cover;
+        background-position:center -30px;
+        max-width:767px;
+        height:320px;
+        padding:0;
+        
+    }
+
+    .main-top{
+        top :50px;
+        padding-top:0px;
+        max-width:767px;
+        height:320px;
+        background-position:center -25px;
+       
+
+    }
+
+
+
+    .innerlogo{
+        display:none;
+    }
+
+    .innerbox {
+        max-width:100%;
+        width:767px;
+        height:134px;
+        padding:9px 0 13px 0;
+        margin:0;
+        border-radius: 0;
+    }
+
+    .inner-btn a{
+        font-size:1.6rem;
+        padding:12px 18px;
+    }
+
+    .innerbox p{
+        margin:0.7rem 0;
+        font-size:1.3rem;
+        line-height:1.5;
+        font-weight:700!important;
+    }
+
+    .bottom-contents{
+        flex-direction:column;
+        margin-top:0;
+        padding-top:100px;
+        align-items:center;
+    }
+
+    .content{
+        width:auto;
+        margin:10px 0 20px;
+    }
+}
